@@ -45,8 +45,8 @@ public class Book {
     }
 
     public int borrowCopy(int availableCopies){
-        if(availableCopies >0){
-            availableCopies --;
+        if(this.availableCopies >0){
+           this.availableCopies --;
         }else{
             this.availableCopies = availableCopies;
             System.out.println("You can't decreases");

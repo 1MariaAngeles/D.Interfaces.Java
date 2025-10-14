@@ -1,5 +1,13 @@
+import model.Library;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Library library = new Library();
+
+        System.out.println("Lista biblioteca");
+        library.showAllBooks();
+
+
+        
     }
 }
